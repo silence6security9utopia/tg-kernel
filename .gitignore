@@ -1,0 +1,12 @@
+vendor/
+storage/
+.idea/
+public/
+config/
+Ft.php
+Pp.php
+Application.php
+Router.php
+route/
+composer.lock
+.env

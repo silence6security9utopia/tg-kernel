@@ -1,0 +1,29 @@
+{
+    "name": "silence6security9utopia/tg-kernel",
+    "type": "library",
+    "description": "Kernel for bot.",
+    "autoload": {
+        "psr-4": {
+            "Zcell\\Kernel\\": ""
+        },
+        "files": [
+            "helper.php"
+        ]
+    },
+    "require": {
+        "php": ">=7.4",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "laravel/lumen-framework": "^8.2",
+        "illuminate/redis": "^8.49",
+        "predis/predis": "^1.1",
+        "guzzlehttp/guzzle": "7.4.x-dev"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:vttrue/bot-template.git"
+        }
+    ],
+    "minimum-stability": "dev"
+}
